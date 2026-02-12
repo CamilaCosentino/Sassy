@@ -1,11 +1,11 @@
 import { RoomData, Post } from './types';
 
 // Images referenced locally as requested.
-const IMG_HOME = "/public/images/home.png";
-const IMG_ROOM1 = "/public/images/first.png";
-const IMG_ROOM2 = "/public/images/second.png";
-const IMG_ROOM3 = "/public/images/third.png";
-const IMG_ROOM4 = "/public/images/fourth.png";
+const IMG_HOME = "../public/images/home.png";
+const IMG_ROOM1 = "../public/images/first.png";
+const IMG_ROOM2 = "../public/images/second.png";
+const IMG_ROOM3 = "../public/images/third.png";
+const IMG_ROOM4 = "../public/images/fourth.png";
 
 // Helper to generate dummy posts with seeded images and full content
 const generatePosts = (mainCategory: string, subCategory: string, count: number): Post[] => {
